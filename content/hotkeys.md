@@ -40,7 +40,7 @@
 | --- | ------ |
 | F1 | Settings |
 | F2 | Tutorial |
-| F3 | FX tuning |
+| F3 | FX + museum tuning — MOSH / CRT / LOOK / MUSEUM tabs |
 | F4 | Rooms + PDF import |
 | F5 | Accessibility |
 | F6 | B-roll recorder |
