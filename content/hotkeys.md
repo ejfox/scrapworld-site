@@ -4,6 +4,9 @@
 | --- | ------ |
 | WASD + mouse | Move and look |
 | W, W | Sprint (double-tap) |
+| Space | Jump |
+| Space, Space | Fly on / off (creative mode) |
+| Space / Shift | Fly up / down |
 | Scroll | Held card distance |
 
 ### Cards
