@@ -15,8 +15,8 @@
 | --- | ------ |
 | E / LMB | Grab — hold and release to throw |
 | P / RMB | Pin — walls flatten, air pins stay exactly in place |
-| X | Inspect the held card — scroll zooms, WASD pans, click sticks a pin |
-| T | (in inspect) start a red thread — walk it to another card, E ties it off |
+| X | Inspect the held card — scroll zooms, WASD pans, mouse tilts |
+| T | Red thread: aim at a card (or hold one) to start, T on another card ties off, Esc abandons |
 | F | Kick the cards ahead of you |
 | O | Open the card's source page |
 | Q | Cancel pinning |
@@ -26,7 +26,7 @@
 | Key | Action |
 | --- | ------ |
 | M | Tag museum on / off |
-| G | Sweep cards into a wall grid |
+| G | Arrange every card into a rotunda around you, sorted by date |
 | / | Type-to-search |
 | MMB (hold) | Radial menu |
 | Tab | Sort cards by date |
