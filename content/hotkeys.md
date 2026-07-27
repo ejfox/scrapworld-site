@@ -14,7 +14,9 @@
 | Key | Action |
 | --- | ------ |
 | E / LMB | Grab — hold and release to throw |
-| P / RMB | Pin — walls flatten, air pins float |
+| P / RMB | Pin — walls flatten, air pins stay exactly in place |
+| X | Inspect the held card — scroll zooms, WASD pans, click sticks a pin |
+| T | (in inspect) start a red thread — walk it to another card, E ties it off |
 | F | Kick the cards ahead of you |
 | O | Open the card's source page |
 | Q | Cancel pinning |
