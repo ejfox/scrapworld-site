@@ -39,6 +39,7 @@
 | F4 | Rooms + PDF import |
 | F5 | Accessibility |
 | F6 | B-roll recorder |
+| F7 | Card design lab — restyle every card live |
 | F11 | Fullscreen on / off (also Alt+Enter) |
 | F12 | Screenshot to `Pictures\scrapworld` — Shift for 2x resolution |
 | I | Import wizard |
