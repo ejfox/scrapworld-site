@@ -1,8 +1,11 @@
-- **Physical cards.** Every saved bookmark and note becomes a trading card with a live screenshot. Pick them up, throw them, pin them to walls, kick them across the room.
-- **Everything persists.** Cards stay wherever you leave them between sessions.
+- **Physical cards.** Every saved bookmark and note becomes a trading card with a live screenshot. Pick them up, throw them, pin them to walls, kick them across the room. Scraps without screenshots render as designed typographic cards instead.
+- **Red thread.** Aim at a card, press T, walk the string to another card, T again — a conspiracy board in three dimensions. Threads sag like real string, snap taut when a threaded card is thrown, and persist between sessions.
+- **Inspect mode.** X raises the held card to reading distance while the world melts to bokeh: scroll zooms into the text, WASD pans across it like a magnifier, the mouse tilts it in your hands.
 - **Tag museum.** Press M and a procedural gallery builds itself around you — an octagonal atrium with rooms grouped by your dominant tags. Pull a card off the wall and the curator rehangs it where it lands.
+- **The rotunda.** G wraps every card around you in rings, sorted oldest to newest — turn in place to scan years of your own attention.
+- **Creative flight.** Double-tap Space and fly through your collection, Minecraft-style.
 - **Glitch and datamosh.** Card impacts spike chromatic aberration and drive a frame-feedback datamosh melt, composited with an always-on CRT pass. Tune every stage live with F3.
-- **Search and sort.** Type `/` and matching cards grow while the rest shrink. Tab sorts by date. G sweeps everything into a wall grid.
-- **Radial menu.** Hold middle mouse for bulk ops — museum, scatter, gather, new cards, freeze, search.
+- **Card design lab.** F7 opens live typography and layout sliders — restyle every card in the world while you look at one.
+- **Search and sort.** Type `/` and matching cards grow while the rest shrink. Tab sorts by date.
+- **Everything persists.** Cards, pins, and threads stay wherever you leave them — saved atomically, so a crash never eats your layout.
 - **Import.** Pull scraps from Supabase, local markdown, Pinboard, or drop a PDF and walk through it as a room.
-- **B-roll recorder.** F6 opens a Cinemachine orbit recorder for capturing footage of your space.
