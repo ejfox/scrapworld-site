@@ -1,0 +1,214 @@
+<!doctype html>
+<!--
+  scrapworld landing page — no build step.
+  To update content, edit the markdown in docs/content/ and push:
+    features.md · hotkeys.md (mirror PauseMenuManager.Keymap) · guide.md
+  Style: ejfox academic.css (brutalist-academic) + vulpes.nvim accents.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>scrapworld</title>
+<meta name="description" content="A first-person 3D space where your bookmarks become physical trading cards.">
+<style>
+  :root {
+    --bg: #fff;
+    --fg: #000;
+    --muted: #666;
+    --accent: #e60067;
+    --rule: #000;
+    --shade: #eee;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #000;
+      --fg: #f2cfdf;
+      --muted: #8a6d78;
+      --accent: #e60067;
+      --rule: #f2cfdf;
+      --shade: #1a1114;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--fg);
+    background: var(--bg);
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  h1, h2, h3 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    margin: 0 0 8px 0;
+  }
+  h1 { font-size: 18px; border-bottom: 1px solid var(--rule); padding-bottom: 5px; }
+  h2 { font-size: 14px; margin-top: 15px; }
+  h3 { font-size: 12px; margin-top: 10px; text-transform: uppercase; letter-spacing: 0.04em; }
+  a { color: var(--accent); }
+  a:visited { color: var(--accent); }
+  p { margin: 0 0 10px 0; }
+  hr { border: none; border-top: 1px solid var(--rule); margin: 15px 0; }
+
+  .header { margin-bottom: 15px; }
+  .header-row { display: table; width: 100%; }
+  .header-row > div { display: table-cell; vertical-align: bottom; }
+  .header-row .right {
+    text-align: right;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 11px;
+  }
+  .subtitle { color: var(--muted); font-size: 11px; }
+
+  .tabs { margin-bottom: 15px; font-family: Helvetica, Arial, sans-serif; font-size: 11px; }
+  .tabs a {
+    margin-right: 10px; padding: 3px 8px;
+    border: 1px solid var(--rule);
+    text-decoration: none; color: var(--fg);
+  }
+  .tabs a:hover { background: var(--shade); }
+
+  .btn {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    background: var(--shade);
+    border: 1px solid var(--rule);
+    padding: 4px 10px;
+    text-decoration: none;
+    color: var(--fg);
+    display: inline-block;
+  }
+  .btn:hover { background: var(--bg); }
+  .btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .btn.primary:hover { background: var(--accent); opacity: 0.85; }
+
+  .section { margin-bottom: 25px; }
+  .section > h2 { border-bottom: 1px solid var(--rule); padding-bottom: 3px; }
+
+  .content ul { margin: 8px 0; padding-left: 22px; }
+  .content li { margin-bottom: 5px; }
+  .content table { border-collapse: collapse; width: 100%; margin: 8px 0; font-size: 12px; }
+  .content th, .content td {
+    border: 1px solid var(--rule);
+    padding: 4px 8px;
+    text-align: left;
+    vertical-align: top;
+  }
+  .content th {
+    background: var(--shade);
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+  }
+  .content td:first-child {
+    font-family: 'Courier New', monospace;
+    white-space: nowrap;
+    width: 1%;
+    padding-right: 16px;
+  }
+  .content code {
+    font-family: 'Courier New', monospace;
+    background: var(--shade);
+    padding: 1px 4px;
+    font-size: 12px;
+  }
+
+  .meta { color: var(--muted); font-size: 10px; margin-top: 30px; border-top: 1px solid var(--rule); padding-top: 8px; }
+  .meta a { color: var(--muted); }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-row">
+    <div>
+      <h1>SCRAPWORLD</h1>
+      <div class="subtitle">a first-person 3D space where your saved bookmarks and notes become physical trading cards — pick up, throw, pin, search, curate</div>
+    </div>
+    <div class="right">
+      <a class="btn primary" href="https://github.com/ejfox/scrapworld/releases/latest">download</a>
+      <a class="btn" href="https://github.com/ejfox/scrapworld">github</a>
+    </div>
+  </div>
+</div>
+
+<div class="tabs">
+  <a href="#features">/features</a>
+  <a href="#hotkeys">/hotkeys</a>
+  <a href="#guide">/guide</a>
+</div>
+
+<div class="section" id="features">
+  <h2>1. Features</h2>
+  <div class="content" data-src="content/features.md"></div>
+</div>
+
+<div class="section" id="hotkeys">
+  <h2>2. Hotkeys</h2>
+  <div class="content" data-src="content/hotkeys.md"></div>
+</div>
+
+<div class="section" id="guide">
+  <h2>3. Guide</h2>
+  <div class="content" data-src="content/guide.md"></div>
+</div>
+
+<div class="meta">
+  <a href="https://ejfox.com">EJ Fox</a> · Windows · Unity 6 · built-in pipeline + PPv2 ·
+  <a href="https://github.com/ejfox/scrapworld/releases">all releases</a>
+</div>
+
+<script>
+// Minimal markdown renderer: h3, tables, lists, bold, code, links, paragraphs.
+function md(src) {
+  const esc = s => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  const inline = s => esc(s)
+    .replace(/`([^`]+)`/g, "<code>$1</code>")
+    .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+    .replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, '<a href="$2">$1</a>');
+  const lines = src.split(/\r?\n/);
+  const out = [];
+  let i = 0;
+  while (i < lines.length) {
+    const l = lines[i];
+    if (/^###\s/.test(l)) { out.push("<h3>" + inline(l.slice(4)) + "</h3>"); i++; continue; }
+    if (/^\|/.test(l)) {
+      const rows = [];
+      while (i < lines.length && /^\|/.test(lines[i])) { rows.push(lines[i]); i++; }
+      const cells = r => r.replace(/^\s*\||\|\s*$/g, "").split("|").map(c => inline(c.trim()));
+      let html = "<table>";
+      rows.forEach((r, ri) => {
+        if (ri === 1 && /^[\s|:-]+$/.test(r)) return;
+        const tag = ri === 0 ? "th" : "td";
+        html += "<tr>" + cells(r).map(c => `<${tag}>${c}</${tag}>`).join("") + "</tr>";
+      });
+      out.push(html + "</table>");
+      continue;
+    }
+    if (/^- /.test(l)) {
+      const items = [];
+      while (i < lines.length && /^- /.test(lines[i])) { items.push("<li>" + inline(lines[i].slice(2)) + "</li>"); i++; }
+      out.push("<ul>" + items.join("") + "</ul>");
+      continue;
+    }
+    if (l.trim() === "") { i++; continue; }
+    const para = [];
+    while (i < lines.length && lines[i].trim() !== "" && !/^(###|\||- )/.test(lines[i])) { para.push(lines[i]); i++; }
+    out.push("<p>" + inline(para.join(" ")) + "</p>");
+  }
+  return out.join("\n");
+}
+
+document.querySelectorAll("[data-src]").forEach(el => {
+  fetch(el.dataset.src)
+    .then(r => { if (!r.ok) throw new Error(r.status); return r.text(); })
+    .then(text => { el.innerHTML = md(text); })
+    .catch(() => { el.innerHTML = '<p>Could not load. See the <a href="https://github.com/ejfox/scrapworld#readme">README</a>.</p>'; });
+});
+</script>
+
+</body>
+</html>

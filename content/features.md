@@ -1,0 +1,8 @@
+- **Physical cards.** Every saved bookmark and note becomes a trading card with a live screenshot. Pick them up, throw them, pin them to walls, kick them across the room.
+- **Everything persists.** Cards stay wherever you leave them between sessions.
+- **Tag museum.** Press M and a procedural gallery builds itself around you — an octagonal atrium with rooms grouped by your dominant tags. Pull a card off the wall and the curator rehangs it where it lands.
+- **Glitch and datamosh.** Card impacts spike chromatic aberration and drive a frame-feedback datamosh melt, composited with an always-on CRT pass. Tune every stage live with F3.
+- **Search and sort.** Type `/` and matching cards grow while the rest shrink. Tab sorts by date. G sweeps everything into a wall grid.
+- **Radial menu.** Hold middle mouse for bulk ops — museum, scatter, gather, new cards, freeze, search.
+- **Import.** Pull scraps from Supabase, local markdown, Pinboard, or drop a PDF and walk through it as a room.
+- **B-roll recorder.** F6 opens a Cinemachine orbit recorder for capturing footage of your space.
